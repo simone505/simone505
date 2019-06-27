@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<script>
+noStroke();
+
+// sky
+background(82, 222, 240);
+
+// sun size
+var sunSize = 30; 
+
+draw = function() {
+     // the sun
+    fill(255, 204, 0);
+    ellipse(200, 298, sunSize, sunSize);
+
+    // the land
+    fill(76, 168, 67);
+    rect(0, 300, 400, 100);
+
+    sunSize = sunSize + 1;
+};
+ 
